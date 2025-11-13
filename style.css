@@ -1,6 +1,16 @@
-body {
+/* body {
 
     background-color: #fdfde6;
+} */
+
+* {
+
+    margin: 0;
+
+    padding: 10px 10px;
+
+    /* font-size: 16px; */
+
 }
 
 h1 {
@@ -10,5 +20,30 @@ h1 {
 
     font-family: 'Arial Black', sans-serif;
 
+}
 
+#firstParagraph {
+
+    color: #222222;
+
+    font-size: 16px;
+
+    font-family: 'Verdana', sans-serif;
+
+}
+
+.byeGalaxy {
+
+    color: #26a092;
+
+    background-color: #e2a351;
+    margin: 100px 40px 100px 40px;
+
+
+}
+
+h4 {
+
+    border: 5px solid #911371;
+    padding: 50px 100px 50px 1100px;
 }

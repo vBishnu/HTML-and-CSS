@@ -1,0 +1,85 @@
+Day 9: Positioning in CSS
+
+
+
+Position:
+
+There are 5 ways of using position in CSS.
+
+1. Static
+
+2. Relative
+
+3. Absolute
+
+4. Fixed
+
+5. Sticky
+
+
+
+We can use top, bottom, left, and right to set the values of how much we need to move an item.
+
+
+
+1. Static: This is the default position, and it does not take any effect, or rather, we cannot make any changes using this value. In static, we cannot move/change these values from the top, bottom, left, or right.
+
+
+
+
+
+2. Relative: 
+
+An item positions itself set from its position. For example, if an item box 6 is already 800px left from the top, and we put position: relative; and add values to it, let's say left: 200px, then it moves 1000px left from the top.
+
+
+
+
+
+3. Absolute:
+
+When an item is set to position: absolute; then it looks for a parent/ancestor to relate to and move according to the parent. If there is no parent/ancestor found
+
+The item will position itself according to HTML/entire webpage.
+
+
+
+
+
+4. Fixed: 
+
+When an item is set to position: fixed; then it stays there no matter how much you scroll up or down through the webpage. Think of a fixed position like something that is glued and screwd, which won't move from its set position. Box 3 is an example in the picture below.
+
+
+
+
+
+5 Sticky:
+
+In this method, the item stays static unless you scroll to it, and stays there.
+
+But unlike position: fixed, this method does not cross to another div/body/container, as shown in the image below, where box 5 is an example for this method.
+
+
+
+
+
+There is a "z-index" property, which can only be used after changing the position value to anything except static
+
+
+
+Exception: Transform, Filter, Perspective.
+
+ When using absolute position in an item, we know that it looks for its parent/ancestor, but if there are any of these 3 (Transform, Filter, Perspective) properties then it works just like normal position: relative;
+
+
+
+............................................................................................................................................................
+
+
+
+
+
+
+
+Learning with Digital Pathshala

@@ -73,17 +73,10 @@ CSS is written in a different file with the extension .css (style.css) and linke
 Properties of CSS
 
 Some of the properties of CSS are:
-
-
-
 Color (RGB, RGBA, Hex, HSL)
-
 Font-Size
-
 Font-Family
-
 Background-Color
-
 text-align
 
 

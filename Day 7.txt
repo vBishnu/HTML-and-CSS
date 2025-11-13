@@ -1,0 +1,151 @@
+Day 7: Selector, Border, Margin, Padding
+
+
+
+Selector Types:
+
+
+
+1. Element Selector
+2. ID Selector
+3. Class Selector
+4. Universal Selector
+
+
+1. Element Selector:
+We can apply CSS by selecting an element tag directly in this method.
+
+
+h1 {
+
+  color: #e2a351;
+  font-family: 'Arial Black', sans-serif;
+
+}
+
+
+
+Here, "h1" is an element.
+
+
+2.ID Selector:
+In this method, we need to give an ID to an element first before applying CSS.
+We use "#" before ID.
+
+
+
+<html>
+<p id="firstParagraph">This is a paragraph under h5 heading.</p>
+</html>
+
+
+
+
+
+#firstParagraph {
+
+  color: #222222;
+  font-size: 16px;
+  font-family: 'Verdana', sans-serif;
+
+}
+
+
+Here, firstParagraph is the ID.
+
+
+
+3. Class Selector
+In this method, we need to give a Class to an element first before applying CSS, just like in an ID Selector.
+We use "." before ID when using in CSS.
+
+Note: ID Selector(high priority) > Class Selector(low priority)
+
+<html>
+ <h2 class="byeGalaxy">Bye Galaxy - This is a heading h2</h2>
+</html>
+
+
+
+.byeGalaxy {
+
+  color: #26a092;
+  background-color: #e2a351;
+  margin: 100px 40px 100px 40px;
+  padding: 50px 30px;
+
+
+}
+
+
+Here, "byeGalaxy" is the class.
+
+
+4. Universal Selector(*):
+Universal selector takes effect on everything. It is represented by " * " in CSS.
+This selector is most commonly used to set margin, padding, font-size, and background-color.
+
+* {
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 16px;
+
+}
+
+
+
+Border: 
+Border is a type of CSS used to give an outline to a certain element. 
+First, we must give border-size, border-styl,e then border-color respectively.
+
+
+h4 {
+  border: 5px solid #911371;
+
+}
+
+
+
+
+
+Margin:
+Margin is a blank space given to align the elements. It represents the space outside the border.
+
+
+(When we write margin like this, it works clockwise, which means it will leave 100px margin on top, 40px on the right, 90px on the bottom, and 20px on the left)
+
+margin: top, right, bottom, left
+margin: 100px 40px 90px 20px; 
+
+
+margin: top-bottom, right-left 
+margin: 100px 40px
+
+
+margin: 100px(equal margin on all sides)
+
+
+to give margin on specific side (if 1st method is confusing)
+margin-top: 50px
+margin-bottom: 60px
+margin-left: 70px
+margin-right: 30px
+
+
+
+Padding:
+Padding is the space given to align the elements. It represents the space inside the border.
+
+h4 {
+  border: 5px solid #911371;
+  padding: 50px 100px 50px 1100px;
+}
+
+
+
+Padding is written the same as margin, but inside the border.
+
+
+............................................................................................................................................................
+
+Learning with Digital Pathshala

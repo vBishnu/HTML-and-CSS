@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 238, 218);
+}
+
+.container {
+    height: 150vh;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+}
+
+.container2 {
+    height: 100vh;
+    background-color: black;
+
+}
+
+.box {
+    background-color: rgb(16, 164, 205);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    position: static;
+
+}
+
+.box2 {
+    position: absolute;
+    top: 205px;
+    left: 205px;
+}
+
+.box3 {
+    position: fixed;
+    top: 410px;
+    left: 410px;
+}
+
+.box4 {
+    position: relative;
+    top: 615px;
+    left: 400px;
+}
+
+.box5 {
+    position: sticky;
+    top: 820px;
+    left: 815px;
+
+}
+
+/* .box6 {
+    position: relative;
+    left: 0px;
+    top: 600px;
+    z
+} */
+
+
+.signuplink {
+    height: 100vh
+    color: rgb(0, 0, 0);
+    background-color: yellowgreen;
+    display: flex;
+    position: relative;
+    left: 500px;
+}
