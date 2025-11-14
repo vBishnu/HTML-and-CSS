@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgImage {
+    height: 110vh;
+    background-image: url('./skyImage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+
+.text {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.hotAirBalloonimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scale: 40%;
+    bottom: 1550px;
+
+}
+
+.btn-warning {
+    padding: 5px 30px;
+    position: relative;
+    bottom: 750px;
+    left: 1360px;
+    /* align-self: center; */
+
+
+}
