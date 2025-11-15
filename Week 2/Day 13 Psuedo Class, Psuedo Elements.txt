@@ -1,0 +1,18 @@
+Day 13: Psuedo Class, Psuedo Elements.
+
+
+Psuedo Class: 
+It is used for giving specific style for the selected element.
+Pusedo Class starts with (:) such as : visited, :hover, :active etc.
+
+
+Psuedo Elements: 
+It is used for giving styles to specific parts of an element.
+Pusedo Elements starts with (::) such as :: before, ::after, ::first-letter, :: first-line, etc.
+
+
+
+............................................................................................................................................................
+
+
+Learning with Digital Pathshala

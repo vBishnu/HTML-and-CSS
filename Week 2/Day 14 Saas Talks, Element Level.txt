@@ -1,0 +1,20 @@
+Day 14:Element Levels
+
+Inline Element, Block Element,  Inline-block Element
+
+
+1. Inline Element: The element doesnot drop down on next line when we add new element and continues on row left to right. These elements only take width just as long as the content is placed. For eg; <span>. Height and width cannot be set in these.
+
+2. Block Element: Elements start to drop down on column every time we add new element. These element take full width of viewport. We can set both Height and Width in these elements.
+
+
+3. Inline-block Element: In this they can take both properties of inline and block properties. The element continues on row and we can set both height and width on this. <img> is an example of inline-block element.
+
+
+
+
+
+............................................................................................................................................................
+
+
+Learning with Digital Pathshala

@@ -1,0 +1,29 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img {
+    display: inline-block;
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+
+span{
+    padding: 5px;
+    color: white;
+    background-color: #0d59ff;
+    display: block;
+;
+}
+
+p {
+    display: inline;
+    background-color: #ff1b1b;
+    color: white;
+    padding: 5px;
+}
+
