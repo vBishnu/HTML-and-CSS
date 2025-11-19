@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bishnu's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
 
 </head>
@@ -17,20 +17,26 @@
         <h1>Bishnu</h1>
         <ul>
             <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
+            <a href="#services"><li>Services</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contactME"><li>Contact Me</li></a>
+            
+            
+            
         </ul>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="homePage">
 
         <div class="left">
             <h1>Welcome to Bishnu's Portfolio</h1>
             <p> My name is Bishnu Budhathoki and I'm learning how to build a portfolio website using
                 <strong><em>HTML</em></strong> and <strong><em>CSS</em></strong>.
             </p>
-            <button type="button" class="btn btn-light">Hire Me</button>
+
+            <a href="https://www.linkedin.com/in/bishnu-budhathoki/"><button type="button" class="btn btn-light">Hire
+                    Me</button></a>
+
 
             <!-- <button>Hire ME</button> -->
 
@@ -63,47 +69,111 @@
 
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <h2>Services</h2>
         <div class="listServices">
-        <div>
-            <img src="./Images/photoshopLogo.png" alt="">
-            <h1>Photoshop</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente dolore
-                accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
-                minus modi molestias explicabo facilis?
-            </p>
-        </div>
-        <div>
-            <img src="./Images/premiereproLogo.png" alt="">
-            <h1>Premier Pro</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente dolore
-                accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
-                minus modi molestias explicabo facilis?
-            </p>
-        </div>
-        <div>
-            <img src="./Images/htmlLogo.png" alt="">
-            <h1>HTML</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente dolore
-                accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
-                minus modi molestias explicabo facilis?
-            </p>
-        </div>
-        <div>
-            <img src="./Images/cssLogo.png" alt="">
-            <h1>CSS</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente dolore
-                accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
-                minus modi molestias explicabo facilis?
-            </p>
+            <div>
+                <img src="./Images/photoshopLogo.png" alt="">
+                <h1>Photoshop</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente
+                    dolore
+                    accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
+                    minus modi molestias explicabo facilis?
+                </p>
+            </div>
+            <div>
+                <img src="./Images/premiereproLogo.png" alt="">
+                <h1>Premier Pro</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente
+                    dolore
+                    accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
+                    minus modi molestias explicabo facilis?
+                </p>
+            </div>
+            <div>
+                <img src="./Images/htmlLogo.png" alt="">
+                <h1>HTML</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente
+                    dolore
+                    accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
+                    minus modi molestias explicabo facilis?
+                </p>
+            </div>
+            <div>
+                <img src="./Images/cssLogo.png" alt="">
+                <h1>CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, architecto odio sapiente
+                    dolore
+                    accusantium provident aliquid nobis praesentium. Laboriosam soluta ab et expedita, alias repellendus
+                    minus modi molestias explicabo facilis?
+                </p>
+            </div>
+
         </div>
 
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./heroSection.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./servicePage.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./contactME.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
 
     </section>
 
+    <section class="form" id="contactME">
+        <div class="formLeft">
+
+            <img src="./Images/bishnuLogo.png" alt="">
+            <p><span style="font-size:2rem; font-weight: bold;">Bishnu Budahtoki</span></p>
+            <p>+977-9860419718</p>
+            <p>bishnu.projectile@gmail.com</p>
+            <a href="https://www.linkedin.com/in/bishnu-budhathoki/"><button type="submit" class="btn btn-light">Hire
+                    Me</button></a>
+
+
+        </div>
+        <div class="formRight">
+            <h1 style="color: white; font-size: 5.6rem; text-decoration: underline; position: relative; bottom: 3rem; font-weight: bold;">Contact Me</h1>
+            <form action="https://usebasin.com/f/a89763e46a10" method="POST" class="dataForm" style="color: white;">
+                <label for="name"><span style="font-weight: bold;">Name</span></label>
+                <input type="text" id="name" placeholder="your name here" name="name" style="color: black" >
+                <label for="email"><span style="font-weight: bold;">Email</span></label>
+                <input type="text" id="email" placeholder="your email here" name="email" style="color: black">
+                <label for="message"><span style="font-weight: bold;">Message</span></label>
+                <textarea type="text" id="message" rows="4" placeholder="your message here" name="message" style="color: black"></textarea>
+                <label for="file"><span style="font-weight: bold;">File</span></label>    
+                <input type="file" name="file">     
+                <button type="submit" class="btn btn-light">Submit</button>       
+
+            </form>
+            
+                
+        </div>
+
+
+
+
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -17,6 +17,7 @@ nav {
     background-color: var(--primaryColor);
     display: flex;
     justify-content: space-between;
+
 }
 
 body nav ul {
@@ -24,24 +25,35 @@ body nav ul {
     color: var(--textColor);
     display: flex;
     align-items: center;
-    gap: 3rem;
-    padding-right: 5rem;
+    position: relative;
+    top: .5rem;
+    gap: 6rem;
+    padding-right: 12rem;
+}
+
+nav ul a{
+    text-decoration: none;
 }
 
 nav ul li {
-
     cursor: pointer;
 }
 
 nav h1 {
     display: flex;
     align-items: center;
-    cursor: pointer~;
+    position: relative;
+    top: .3rem;
+    left: 1rem;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .right img {
-    width: 500px;
+    width: 700px;
     height: auto;
+    position: relative;
+    right: 2rem;
 }
 
 .hero {
@@ -74,16 +86,21 @@ nav h1 {
 
 }
 
+.left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .left p {
     width: 60%;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .left button {
     background-color: #ffffff;
     color: var(--primaryColor);
     padding: 0.1rem 0.5;
-    
+
 
 }
 
@@ -119,33 +136,33 @@ nav h1 {
 }
 
 
-.skills ul li{
+.skills ul li {
     position: relative;
     top: 1rem;
     right: 2rem;
     cursor: pointer;
-    
+
 }
 
-.skills ul .li3{
+.skills ul .li3 {
     position: relative;
     right: 2.5rem;
 }
 
-.skills ul .li4{
+.skills ul .li4 {
     position: relative;
     right: 0.5rem;
 }
 
-.services{
+.services {
     background-color: #ffffff;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.listServices{
+.listServices {
     padding: 10rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -154,23 +171,23 @@ nav h1 {
 
 
 
-.listServices div{    
-     background-color: var(--primaryColor);
-      height: 25rem;
-      border-radius: 3%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 3rem;
-      gap: 1rem;
+.listServices div {
+    background-color: var(--primaryColor);
+    height: 25rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
 }
 
-.services div img{
+.services div img {
     height: 100px;
 }
 
-.services h2{
+.services h2 {
     text-decoration: underline;
     position: relative;
     top: 4rem;
@@ -185,3 +202,79 @@ nav h1 {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+.projects {
+    height: 100vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    padding-left: 15%;
+}
+
+.carousel-itemactive img {
+    width: 50rem;
+
+}
+
+
+.projects h1 {
+    text-decoration: underline;
+    position: relative;
+    top: 1rem;
+    color: var(--primaryColor);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, sans-serif;
+    font-size: 5rem;
+}
+
+
+.form {
+    background-color: var(--primaryColor);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 11rem;
+    /* border: 2px solid white; */
+    padding: 10rem;
+    width: 55%;
+    
+}
+
+.formLeft img {
+    height: 450px;
+    width: 450px;
+    position: relative;
+    left: 9rem;
+    bottom: 2rem;
+    
+}
+
+.formRight {
+    /* border: 2px solid white; */
+    color: var(--primaryColor);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
+
+.dataForm {
+    max-width: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
