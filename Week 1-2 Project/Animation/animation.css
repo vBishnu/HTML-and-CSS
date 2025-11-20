@@ -100,7 +100,7 @@ nav ul li:hover {
 }
 
 
-.main button {
+.main button {    
     height: 5rem;
     width: 15rem;
     font-size: 2rem;
@@ -109,6 +109,12 @@ nav ul li:hover {
     border-radius: 5px;
     position: relative;
     color: #fff;
+}
+
+.main a :hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0e80de;
 }
 
 .float{
