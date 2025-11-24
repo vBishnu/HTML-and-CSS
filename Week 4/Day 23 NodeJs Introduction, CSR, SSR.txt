@@ -1,0 +1,38 @@
+Day 23: NodeJs Introduction, CSR, SSR
+
+
+NodeJs Introduction:
+Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript. Creator = "Ryan Dahl" 2009
+
+
+CSR :
+Client-side rendering (CSR) refers to the practice of generating HTML content using JavaScript in the browser.
+
+
+Benefits of CSR:
+- Faster Page Loads
+- Great for Web Apps
+- Reduced Server Load
+- Better User Experience
+
+Used for:
+- Dashboard
+- Social media apps
+- mobile apps
+
+
+SSR:
+Server-side rendering (SSR) refers to the practice of generating HTML content on the server and sending it to the client. 
+
+Benefits of SSR:
+- Better SEO
+- Faster First Load
+- Better Performance on Slow Devices
+- Good for Content-Heavy Websites
+
+Used for:
+- Blog page
+- Portfolio sties
+- Landing pages
+- Ecommerce site
+
